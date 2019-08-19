@@ -62,7 +62,7 @@ service Calculator on httpListener {
             }
 
             if(operation == "divide" || operation == "/") {
-                result = add(firstNumber, secondNumber);
+                result = divide(firstNumber, secondNumber);
             }
 
             // Create response message.
